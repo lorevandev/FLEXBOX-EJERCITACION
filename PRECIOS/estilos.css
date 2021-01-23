@@ -1,0 +1,100 @@
+
+
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encabezado{
+    color: white;
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-weight: lighter;
+}
+
+.contenedor{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.startup, .medium, .large{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 1%;
+    border: 1px solid grey;
+    margin: 5%;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 10px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.startup:hover{
+    border: 1px solid white;
+    background-color: rgba(202, 199, 199, 0.26);
+}
+
+.medium:hover{
+    border: 1px solid white;
+    background-color: rgba(202, 199, 199, 0.26);
+}
+
+.large:hover{
+    border: 1px solid white;
+    background-color: rgba(202, 199, 199, 0.26);
+}
+
+.titulo{
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.precio{
+    font-family: "Open-sans", sans-serif;
+    font-size: 40px;
+}
+
+.descrip{
+    font-size: 16px;
+}
+
+.caracteristicas{
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.boton{
+    background-color: hsl(0, 19%, 88%);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    color: #21759b;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

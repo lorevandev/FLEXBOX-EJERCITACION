@@ -1,0 +1,114 @@
+
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    background-color: #6944FF;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 30px;
+}
+
+.nombre{
+    color: #6944FF;
+    font-size: 24px;
+    text-align: center;
+    margin:0px 0px 15px;
+}
+
+.profesion{
+    color: #324E63;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 0px 15px;
+}
+
+
+.ubicacion{
+    color: #324E63;
+    font-size: 18px;
+    text-align: center;
+}
+
+.numeros{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px 35px;
+    margin: 30px;
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.followers, .following, .articles{
+    display: flex;
+    flex-direction: column;
+    color: #324E63;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.facebook, .tweet, .instag, .github{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.boton{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    padding-left:30%;
+    padding-right: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.boton-follow{
+    background-color:#D5135A;
+    color:white;
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.boton-follow:hover{
+    background-color: green;
+}
