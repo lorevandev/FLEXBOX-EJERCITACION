@@ -26,14 +26,14 @@ h4{
 
 .contenedor{
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-evenly;
 }
 
 .startup, .medium, .large{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 330px;
     height: 500px;
     border-radius: 1%;
     border: 1px solid grey;
@@ -49,8 +49,6 @@ h4{
     background-color: rgba(255, 255, 255, 0.08);
     text-align: justify;
 }
-
-
 
 .startup:hover{
     border: 1px solid white;
@@ -75,7 +73,7 @@ h4{
 
 .precio{
     font-family: "Open-sans", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -89,22 +87,35 @@ h4{
     line-height: 1.5;
     font-size: 20px;
     height: 180px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .boton{
     background-color: hsl(0, 19%, 88%);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 100px;
-    border-radius: 5px;
-    height: 50px;
-    text-align: center;
     color: #21759b;
     font-size: 12px;
     font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    position:relative;
+    left: 15%;  
+    margin-top:20px
+}
+.boton-1{
+    margin-top:40px;
+}
+
+.boton-2{
+    margin-top:70px;
+}
+
+.boton-3{
+    margin-top: 40px;
 }
 
 .boton:hover{
@@ -114,8 +125,6 @@ h4{
 }
 
 .tilde{
-    color:white;
-    
-   
-     
+    color:white; 
+    font-size: 20px;
 }
