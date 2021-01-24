@@ -47,7 +47,9 @@ h4{
     border-radius: 10px;
     padding:20px;
     background-color: rgba(255, 255, 255, 0.08);
+    text-align: justify;
 }
+
 
 
 .startup:hover{
@@ -68,22 +70,25 @@ h4{
 .titulo{
     font-size: 28px;
     font-weight: lighter;
+    text-align: center;
 }
 
 .precio{
     font-family: "Open-sans", sans-serif;
     font-size: 40px;
+    text-align: center;
 }
 
 .descrip{
     font-size: 16px;
+    text-align: center;
 }
 
 .caracteristicas{
     text-align: left;
     line-height: 1.5;
     font-size: 20px;
-    height: 120px;
+    height: 180px;
 }
 
 .boton{
@@ -106,4 +111,11 @@ h4{
     background-color: coral;
     color: black;
     font-size: 14px;
+}
+
+.tilde{
+    color:white;
+    
+   
+     
 }
