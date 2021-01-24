@@ -91,6 +91,16 @@ h4{
     margin-right: 5%;
 }
 
+
+.texto-tilde{
+    color:white; 
+    font-size: 20px;
+}
+
+.palomita{
+    font-size: 15px;
+}
+
 .boton{
     background-color: hsl(0, 19%, 88%);
     color: #21759b;
@@ -122,9 +132,4 @@ h4{
     background-color: coral;
     color: black;
     font-size: 14px;
-}
-
-.tilde{
-    color:white; 
-    font-size: 20px;
 }
