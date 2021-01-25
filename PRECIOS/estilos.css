@@ -43,7 +43,6 @@ h4{
     color: white;
     font-size: 14px;
     font-weight: lighter;
-    text-align: center;
     border-radius: 10px;
     padding:20px;
     background-color: rgba(255, 255, 255, 0.08);
@@ -114,7 +113,7 @@ h4{
     align-items: center;
     position:relative;
     left: 15%;  
-    margin-top:20px
+    margin-top:20px;
 }
 .boton-1{
     margin-top:40px;
